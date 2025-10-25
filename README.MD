@@ -65,6 +65,7 @@ Agriculture is vulnerable to climate variability, pests, and resource limitation
 ```bash
 git clone [https://github.com/shivangiS04/PlantPulse.git](https://github.com/shivangiS04/PlantPulse.git)
 cd PlantPulse
+```
 
 2. **Create and activate a virtual environment**
 ```bash 
@@ -76,10 +77,12 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 
 ```bash 
 pip install -r requirements.txt
+```
 
 4. **Run the Streamlit app**
 ```bash 
 streamlit run streamlit_demo.py
+```
 
 ---
 ## Acknowledgments
