@@ -58,7 +58,29 @@ Agriculture is vulnerable to climate variability, pests, and resource limitation
 - Crop-specific customizations for precision agriculture.
 
 ---
+## Getting Started
 
+## Setup Instructions
+1. **Clone the repository**
+```bash
+git clone [https://github.com/shivangiS04/PlantPulse.git](https://github.com/shivangiS04/PlantPulse.git)
+cd PlantPulse
+
+2. **Create and activate a virtual environment**
+```bash 
+python3 -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+
+3. **Install dependencies**
+
+```bash 
+pip install -r requirements.txt
+
+4. **Run the Streamlit app**
+```bash 
+streamlit run streamlit_demo.py
+
+---
 ## Acknowledgments
 - IIT Mandi iHub Multimodal AI Hackathon
 - Open-source frameworks: PyTorch, Streamlit, and more
